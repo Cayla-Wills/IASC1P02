@@ -1,2 +1,3 @@
-#firstHeader {color: red; font-weight: bold;}
-.greenText {color: green; font-style: italic;}
+body{background-color:black}
+ul {color: green; font-style: italic;}
+li {inline; font-size: 30px}
