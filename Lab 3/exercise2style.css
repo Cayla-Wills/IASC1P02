@@ -1,3 +1,3 @@
 body{background-color:black}
 ul {color: green; font-style: italic;}
-li {inline; font-size: 30px}
+li {list-style: inline; font-size: 30px}
