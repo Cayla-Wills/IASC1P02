@@ -1,0 +1,5 @@
+body{background-color:blue;}
+#myContainer{margin: 20px 10% 20px 10%; border:black 5px solid;}
+#myParagraph{border:green 3px dashed}
+p{color:pink; font-family:"Ariel" sans-serif;}
+img{border:white 3px dashed; padding:10px;}
