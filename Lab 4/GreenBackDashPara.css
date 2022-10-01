@@ -1,0 +1,8 @@
+body{margin-top: 5px;}
+p{background-color: green;}
+.boxOne{border: black 2px dotted;
+        padding-top: 10px; padding-bottom: 10px;}
+#redFont{color: red;}
+#greenFont{color: darkgreen;}
+.boxTwo{padding-top: 10px;
+        color: purple;}
