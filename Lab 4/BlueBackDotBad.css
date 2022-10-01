@@ -1,11 +1,11 @@
 body{background-color:blue;
-     margin: 150px 100px 150px 100px;
+     margin: 150px 50px 150px 50px;
      border:black 5px solid;}
 .thePara{margin:20px 20px 20px 20px;
-         border:green 1.5px dashed;
+         border:green 1px dashed;
          padding:10px;}
 p{color:red;
   font-family:"Ariel", sans-serif;
   font-size:15px}
-img{border:pink 1.5px dashed;
+img{border:pink 1px dashed;
     padding:10px;}
