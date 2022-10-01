@@ -1,0 +1,15 @@
+body{margin-right:100px; margin-left:100px;}
+.paragraphOne{border:purple 2px dotted;
+              text-align: center;
+              padding-top:150px; padding-bottom:10px;
+              font-size:10px;}
+.paragraphTwo{color:green;
+              font-weight: bold;
+              font-size:5px;}
+.paragraphThree{color:orange;
+                font-size:25px;}
+.paragraphFour{color:purple;
+               text-align:left;}
+#fontOne{color:red;
+         position:fixed; top:-10px;}
+#fontTwo{color:yellow;}
