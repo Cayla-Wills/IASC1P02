@@ -1,7 +1,7 @@
 body{background-color: green;}
 .boxOne{margin: 10px 10px 10px 10px;
         border: black 5px dotted;
-        padding-top: 10px; padding-bottom: 10px; padding-left: 5px;}
+        padding-top: 10px; padding-bottom: 10px; padding-left: 10px;}
 #redFont{color: red;}
 #greenFont{color: darkgreen;}
 .boxTwo{padding-top: 10px;
