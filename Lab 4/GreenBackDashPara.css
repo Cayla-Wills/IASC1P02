@@ -1,5 +1,4 @@
-body{margin-top: 5px;}
-p{background-color: green;}
+body{margin-top: 8px; background-color: green;}
 .boxOne{border: black 2px dotted;
         padding-top: 10px; padding-bottom: 10px;}
 #redFont{color: red;}
