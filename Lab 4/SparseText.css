@@ -5,11 +5,12 @@ body{margin-right:100px; margin-left:100px;}
               font-size:10px;}
 .paragraphTwo{color:green;
               font-weight: bold;
-              font-size:5px;
+              font-size:7px;
               text-align: center;}
 .paragraphThree{color:orange;
                 font-size:25px;}
 .paragraphFour{color:purple;
+               font-size: 5px;
                text-align: left;}
 #fontOne{color:red;
          position:relative; top:-10px;}
