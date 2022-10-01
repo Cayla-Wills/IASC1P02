@@ -2,10 +2,10 @@ body{background-color:blue;
      margin: 150px 30px 150px 30px;
      border:black 5px solid;}
 .thePara{margin:20px 20px 20px 20px;
-         border:green 1px dashed;
+         border:green 2px dashed;
          padding:10px;}
 p{color:red;
   font-family:"Ariel", sans-serif;
   font-size:15px}
-img{border:pink 1px dashed;
+img{border:pink 2px dashed;
     padding:15px;}
