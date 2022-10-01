@@ -1,7 +1,7 @@
-body{margin-right:100px; margin-left:100px;}
+body{margin-right:125px; margin-left:125px;}
 .paragraphOne{border:purple 2px dotted;
               text-align: center;
-              padding-top:200px; padding-bottom:10px;
+              padding-top:250px; padding-bottom:10px;
               font-size:10px;}
 .paragraphTwo{color:green;
               font-weight: bold;
