@@ -1,8 +1,9 @@
 body{background-color:blue;
-    margin: 50px 50px 50px 50px;
-    border:black 5px solid;}
-.thePara{border:green 1px dashed;}
+     margin: 50px 50px 50px 50px;
+     border:black 5px solid;}
+.thePara{border:green 2px dashed;
+         padding:10px;}
 p{color:pink;
   font-family:"Ariel" sans-serif;}
-img{border:lightpink 2px dashed;
-  padding:20px;}
+img{border:white 2px dashed;
+    padding:10px;}
