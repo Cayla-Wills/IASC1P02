@@ -1,5 +1,6 @@
-body{margin-top: 8px; background-color: green;}
-.boxOne{border: black 5px dotted;
+body{background-color: green;}
+.boxOne{margin: 10px 10px 10px 10px;
+        border: black 5px dotted;
         padding-top: 10px; padding-bottom: 10px; padding-left: 3px;}
 #redFont{color: red;}
 #greenFont{color: darkgreen;}
