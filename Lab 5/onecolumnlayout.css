@@ -1,4 +1,4 @@
 .pageColumn{float: left; width: 90%; background: green; padding: 20px; color: white; font-size: 10px;}
 .pageHeader{float: left; width: 90%; background: red; padding: 60px; text-align: center; color: white; font-size: 30px; font-weight: bold;}
 .pageFooter{float: left; width: 90%; background: blue; padding: 20px; color: white; font-size: 10px;}
-body{margin: 0 auto;}
+.wrapper{margin: 0 auto; width: 1000px}
