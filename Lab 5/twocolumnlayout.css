@@ -1,0 +1,6 @@
+body{background: green; margin: 0 auto;}
+.pageHeader{float: left; width: 90%; background: red; padding-bottom: 20px; text-align: center;}
+.smallColumn{float: left; width: 25%; background: lightpink; padding-top: 10px; padding-bottom: 20px;}
+.mediumColumn{float: left; width: 75%; background: orange; padding-top: 10px; padding-bottom: 20px;}
+.bigColumn{float: left; width: 90%; background: blue; padding-bottom: 10px;}
+.pageFooter{float: left; width: 90%; background: yellow; padding-bottom: 30px;}
