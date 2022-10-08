@@ -1,4 +1,5 @@
-.pageHeader{float: left; width: 100%; background: red; padding: 60px; text-align: center; color: white; font-size: 20px; font-weight: bold;}
-.pageColumn{clear: both; float: left; width: 100%; background: green; padding-top: 5px; padding-bottom: 50px; color: white; font-size: 10px;}
-.pageFooter{clear: both; float: left; width: 100%; background: blue; padding: 20px; color: white; font-size: 10px;}
+.pageHeader{float: left; width: 90%; background: red; padding: 60px; text-align: center; color: white; font-size: 20px; font-weight: bold;}
+.pageColumn{float: left; width: 90%; background: green; padding-top: 5px; padding-bottom: 50px; color: white; font-size: 10px;}
+.pageFooter{float: left; width: 90%; background: blue; padding: 20px; color: white; font-size: 10px;}
 .wrapper{margin: 0 auto; width: 1000px}
+p{clear: both;}
