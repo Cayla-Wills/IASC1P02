@@ -1,6 +1,50 @@
-body{background: green; margin: 0 auto;}
-.pageHeader{float: left; width: 90%; background: red; padding-bottom: 20px; text-align: center;}
-.smallColumn{float: left; width: 25%; background: lightpink; padding-top: 10px; padding-bottom: 20px;}
-.mediumColumn{float: left; width: 75%; background: orange; padding-top: 10px; padding-bottom: 20px;}
-.bigColumn{float: left; width: 90%; background: blue; padding-bottom: 10px;}
-.pageFooter{float: left; width: 90%; background: yellow; padding-bottom: 30px;}
+body{
+  background-color: green;
+  margin: 0 auto;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 750px;
+}
+#header {
+  background-color: red;
+  width: 750px;
+  height: 75px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#leftcolumn {
+  float: left;
+  background-color: lightpink;
+  padding-top: 5px;
+  width: 225px;
+  height: 75px;
+  font-weight: bold;
+}
+
+#rightcolumn {
+  float: left;
+  background-color: orange;
+  padding-top: 5px;
+  width: 525px;
+  height: 75px;
+  font-weight: bold;
+}
+
+#content {
+  clear: left;
+  background-color: blue;
+  width: 750px;
+  height: 500px;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: yellow;
+  width: 750px;
+  height: 75px;
+  font-weight: bold;
+  margin-top: -15px;
+}

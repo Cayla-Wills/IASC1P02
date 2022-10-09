@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+}
+
+#greenBox {
+  margin: 5px 5px 5px 5px;
+  background-color: green;
+}
+
+#wrapper {
+  padding-top: 10px;
+  width: 925px;
+  height: 675px;
+  margin: 0 auto;
+}
+
+#boxOne {
+  float: left;
+  background-color: blue;
+  padding-top: 2px;
+  width: 250px;
+  height: 250px;
+  font-size: 15px;
+}
+
+#boxTwo {
+  float: right;
+  background-color: red;
+  padding-top: 2px;
+  width: 250px;
+  height: 250px;
+  font-size: 15px;
+}
+
+#boxThree {
+  clear: both;
+  margin: 0 auto;
+  background-color: yellow;
+  width: 250px;
+  height: 250px;
+  font-size: 15px;
+}

@@ -1,5 +1,31 @@
-.pageHeader{float: left; width: 75%; background: red; padding: 40px; text-align: center; color: white; font-size: 15px; font-weight: bold;}
-.pageColumn{float: right; width: 75%; background: green; padding-top: 5px; padding-bottom: 50px; color: white; font-size: 10px;}
-.pageFooter{float: left; width: 75%; background: blue; padding-top: 5px; padding-bottom: 45px; color: white; font-size: 10px;}
-.wrapper{margin: 0 auto; width: 1000px;}
-p{clear: left;}
+body {color: white;}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+#header {
+    background-color: red;
+    text-align: center;
+    height: 60px;
+    width: 1150px;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+#content {
+    background-color: green;
+    height: 475px;
+    width: 1150px;
+    padding-top: 15px;
+    font-size: 10px;
+}
+
+#footer {
+    background-color: blue;
+    height: 75px;
+    width: 1150px;
+    font-size: 10px;
+    padding-top: 5px;
+}
