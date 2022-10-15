@@ -1,9 +1,90 @@
-.largeRed{color: red; font-size: 20px}
-.slantedText{font-style: italic;}
-h2, h3{font-weight: bold; font-family: "Times New Roman", serif;}
-p{font-family: "Helvetica Neue", sans-serif;}
-{text-transform: capitalize;}
-{position: absolute;}
-{position: fixed;}
-{position: relative;}
-#theBox{margin: 10px 20px 10px 20px; border: darkred 3px dotted; padding: 10px; text-align: center;}
+body{
+  color: black;
+  margin: 0 auto;
+}
+
+#fixedSnally{
+  position: fixed; left: -3px;
+}
+
+#fixedSnally2{
+  position: fixed; right: -3px;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 750px;
+}
+
+#header {
+  background-color: #E9F5DB;
+  width: 750px;
+  height: 75px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#navLeft {
+  float: left;
+  background-color: #CFE1B9;
+  padding-top: 5px;
+  width: `100px;
+  height: 75px;
+  font-weight: bold;
+}
+
+#navRight {
+  float: left;
+  background-color: #B5C99A;
+  padding-top: 10px;
+  width: 691px;
+  height: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#mainContent {
+  clear: left;
+  background-color: #849669;
+  width: 750px;
+  height: 1670px;
+  font-weight: bold;
+  font-family:"Comic Sans", sans-serif;
+}
+
+#footer {
+  background-color: #606F49;
+  color: #E9F5DB;
+  width: 740px;
+  height: 140px;
+  font-weight: bold;
+  margin-top: -1px;
+  padding-top: 10px; padding-left: 10px;
+}
+
+h1, h3{
+  text-transform: uppercase;
+}
+
+h3{
+  color: white;
+}
+
+.quotes p{color: white; font-style: italic; text-align: center; font-size: 13px;}
+
+#imgOne{
+  height: 75px;
+  width: auto;
+}
+
+#imgTwo{
+  position: relative; left: 190px;
+  height: 214px;
+  width: auto;
+}
+
+#imgThree{
+  position: absolute; bottom: -1100px; right: 520px;
+  height: 200px;
+  width: auto;
+}
