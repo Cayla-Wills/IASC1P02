@@ -1,0 +1,127 @@
+body {background-color: #ffdcc2;}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1150px;
+    border: 3px #ffc599 solid;
+    padding: 10px;
+}
+
+#header {
+    text-align: center;
+    height: 300px;
+    width: 1150px;
+    font-size: 11px;
+    padding-top: 2px;
+    border-bottom: 2px #219ebc solid;
+    padding-bottom: 7px;
+}
+
+#logo {
+  height: 250px;
+  width: auto;
+}
+
+#announcement {
+  outline: 5px red dashed;
+  height: 60px;
+  width: 1150px;
+  font-size: 17px;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#nav {
+  padding-top: 10px;
+  height: 60px;
+  width: 1150px;
+  padding-left: 250px;
+}
+
+.dropbtn {
+  background-color: #fb8500;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+}
+
+.regbtn {
+  background-color: #fb8500;
+  color: white;
+  padding: 16px;
+  font-size: 15px;
+  border: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#oktoberfest {
+  height: 255px;
+  width: 1150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px #219ebc solid
+}
+
+#oktbnnpng {
+  height: 250px;
+  width: auto;
+  padding-left: 190px;
+}
+
+#contentLeft {
+    float: left;
+    height: 475px;
+    width: 750px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+#contentRight {
+    float: right;
+    height: 475px;
+    width: 400px;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+#bierG {
+  height: 475px;
+  width: auto;
+}
+
+#footer {
+    clear: both;
+    height: 75px;
+    width: 1150px;
+    font-size: 13px;
+    padding-top: 5px;
+    border-top: 2px #219ebc solid;
+    text-align: center;
+}
