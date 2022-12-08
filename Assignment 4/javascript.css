@@ -1,0 +1,62 @@
+#wrapper {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+#chibiOne {
+  position: absolute; left: 70px;
+}
+
+#chibiTwo {
+  position: absolute; right: 70px;
+}
+
+.drawingOne {
+  height: 150px;
+  width: auto;
+}
+
+
+#header {
+  float: left;
+  background-color: #F9DBC3;
+  height: 150px;
+  width: 1150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#navTwo {
+  clear: both;
+  text-align: center;
+  background-color: #FDECDF;
+  height: 25px;
+  width: 1150px;
+}
+
+.drawingTwo {
+  position: relative; top: 5px;
+  height: 15px;
+  width: auto;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+}
+
+#content {
+  background-color: #F7F7FF;
+  border: 2px solid #9081F6;
+  height: 530px;
+  width: 1126px;
+  padding: 10px;
+}
+
+
+
+#footer {
+    background-color: #F9DBC3;
+    height: 50px;
+    width: 1145px;
+    padding-top: 2px;
+    padding-left: 5px;
+}

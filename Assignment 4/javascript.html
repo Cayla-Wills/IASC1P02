@@ -5,24 +5,43 @@
   <meta content="en-us" http-equiv="Content-Language"></meta>
   <title>I still hate Javascript</title>
   <script type="text/javascript"  src="javascript.js"></script>
+  <link href="javascript.css" rel="stylesheet" type="text/css"></link>
 </head>
 <body>
-  <a href="mybrain.html">Back to the Colourful Stuff</a>
-  <p>I still suck majorly at Javascript, I can never figure out how to get things to work or change in the right way and it makes me frustrated. Thus, this blank page will hold the remaining required Javascript element, as I do not want to fight both Javascript and CSS.</p>
-  <p>The first Javascript element exists on the home page, ie the popup that asked your name and warned you about the dangers of my brain. Here I will attempt, key word being attempt, to fix the calculator that I could not make for two weeks in a row.</p>
+  <div id="wrapper">
+    <div id="chibiOne">
+      <img class="drawingOne" src="homeimages/baby.PNG" alt="Little Chibi Cayla"></img>
+    </div>
+    <div id="chibiTwo">
+      <img class="drawingOne" src="homeimages/baby.PNG" alt="Little Chibi Cayla"></img>
+    </div>
+    <div id="header">
+      <h2>CAYLA'S BRAIN</h2>
+      <h3>A DIGITAL REPRESENATION OF MY THINKDOME</h3>
+      <h4>OR AT LEAST THE FUN SPECIAL INTERESTS PART</h4>
+    </div>
+    <div id="navTwo">
+      <img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brainone.PNG" alt="Purple Brain"></img> <a href="mybrain.html">Home</a> <img class="drawingTwo" src="homeimages/braintwo.PNG" alt="Yellow Brain"></img> <a href="crowscorner.html">Crow's Corner</a> <img class="drawingTwo" src="homeimages/brainone.PNG" alt="Purple Brain"></img> <a href="racoonsrodeo.html">Racoon's Rodeo</a> <img class="drawingTwo" src="homeimages/braintwo.PNG" alt="Yellow Brain"></img> <a href="opossumsoddities.html">Opossum's Oddities</a> <img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img><img class="drawingTwo" src="homeimages/brains.PNG" alt="Brains"></img>
+    </div>
+    <div id="content">
+      <p>I still suck majorly at Javascript, I can never figure out how to get things to work or change in the right way and it makes me frustrated.</p>
+      <p>The first Javascript element exists on the home page, ie the popup that asked your name and warned you about the dangers of my brain. Here I will attempt, key word being attempt, to fix the calculator that I could not make for two weeks in a row, and hopefully it will work now that I know how to get variables from form fields.</p>
 
-  <h3>Addition</h3>
-  <p><input type="text" name="number1" id="numberOne" value="Number 1"/> + <input type="text" name="number2" id="numberTwo" value="Number 2"> <button type="button" id="btn1" onclick="outputPlus()">=</button> <span id="results">Output</span></p>
-  <h3>Subtraction</h3>
-  <p><input type="text" name="number3" id="numberThree" value="Number 1"/> - <input type="text" name="number4" id="numberFour" value="Number 2"> <button type="button" id="btn1" onclick="outputSub()">=</button> <span id="resultsTwo">Output</span></p>
-  <h3>Multiplication</h3>
-  <p><input type="text" name="number5" id="numberFive" value="Number 1"/> x <input type="text" name="number6" id="numberSix" value="Number 2"> <button type="button" id="btn1" onclick="outputMulti()">=</button> <span id="resultsThree">Output</span></p>
-  <h3>Division</h3>
-  <p><input type="text" name="number7" id="numberSeven" value="Number 1"/> x <input type="text" name="number8" id="numberEight" value="Number 2"> <button type="button" id="btn1" onclick="outputDivi()">=</button> <span id="resultsFour">Output</span></p>
+      <h3>Addition</h3>
+        <p><input type="text" name="number1" id="numberOne" value="Number 1"/> + <input type="text" name="number2" id="numberTwo" value="Number 2"> <button type="button" id="btn1" onclick="outputPlus()">=</button> <span id="results">Output</span></p>
+      <h3>Subtraction</h3>
+        <p><input type="text" name="number3" id="numberThree" value="Number 1"/> - <input type="text" name="number4" id="numberFour" value="Number 2"> <button type="button" id="btn1" onclick="outputSub()">=</button> <span id="resultsTwo">Output</span></p>
+      <h3>Multiplication</h3>
+        <p><input type="text" name="number5" id="numberFive" value="Number 1"/> x <input type="text" name="number6" id="numberSix" value="Number 2"> <button type="button" id="btn1" onclick="outputMulti()">=</button> <span id="resultsThree">Output</span></p>
+      <h3>Division</h3>
+        <p><input type="text" name="number7" id="numberSeven" value="Number 1"/> x <input type="text" name="number8" id="numberEight" value="Number 2"> <button type="button" id="btn1" onclick="outputDivi()">=</button> <span id="resultsFour">Output</span></p>
 
-  <p>LOOK AT THAT I DID IT! I ACTUALLY FIGURED IT OUT!!!</p>
-  <p>Of course the feedback you gave me on my last lab helped me get in the right direction, then I figured out how to get the page to write the answer without taking the viewer to a whole new page! I decided that since I was on a role, I'd do the big calculator over again, to show that I have improved! It might not be the prettiest, but its functional and that's all I wanted!</p>
-
-  <p>ngl though... I still hate Javascript</p>
+        <p>LOOK AT THAT I DID IT! I ACTUALLY FIGURED IT OUT!!!</p>
+        <p>Of course the feedback you gave me on my last lab helped me get in the right direction, then I figured out how to get the page to write the answer without taking the viewer to a whole new page! I decided that since I was on a role, I'd do the big calculator over again, to show that I have improved! It might not be the prettiest, but its functional and that's all I wanted!</p>
+    </div>
+    <div id="footer">
+      <p>ngl though... I still hate Javascript</p>
+    </div>
+  </div>
 </body>
 </html>
