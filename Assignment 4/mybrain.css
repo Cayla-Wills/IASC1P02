@@ -1,0 +1,121 @@
+#wrapper {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+#chibiOne {
+  position: absolute; left: 70px;
+}
+
+#chibiTwo {
+  position: absolute; right: 70px;
+}
+
+.drawingOne {
+  height: 150px;
+  width: auto;
+}
+
+
+#header {
+  float: left;
+  background-color: #F9DBC3;
+  height: 150px;
+  width: 1150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#navOne {
+  clear: both;
+  background-color: #FDECDF;
+  height: 35px;
+  width: 1150px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+.drawingTwo {
+  height: 30px;
+  width: auto;
+}
+
+#content {
+  background-color: #F7F7FF;
+  border: 2px solid #9081F6;
+  height: 550px;
+  width: 1126px;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#thePara {
+  text-align: center;
+}
+
+#nightmare {
+  position: relative; top: 225px;
+}
+
+#footer {
+    background-color: #F9DBC3;
+    height: 50px;
+    width: 1145px;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+button {
+  position: relative; left: 525px;
+}
+
+
+/* Following code was adapted from https://monsterspost.com/create-rollover-image-effect-css-html-js/
+The orginal code didn't do what I wanted it to do, so I kept experimenting until it got to
+the way I wanted it */
+
+.rolloverCrow {
+  position: absolute; left: 200px;
+  display: block;
+  width: 257px;
+  height: 200px;
+  background: url(homeimages/crowmain.png) no-repeat;
+}
+
+.rolloverCrow:hover {
+  background: url(homeimages/crowhover.png);
+  width: 257px;
+  height: 200px;
+}
+
+.rolloverRacoon {
+  position: absolute; left: 500px;
+  display: block;
+  width: 257px;
+  height: 200px;
+  background: url(homeimages/racoonmain.png) no-repeat;
+}
+
+.rolloverRacoon:hover {
+  background: url(homeimages/racoonhover.png);
+  width: 257px;
+  height: 200px;
+}
+
+.rolloverOpossum {
+  position: absolute; left: 800px;
+  display: block;
+  width: 257px;
+  height: 200px;
+  background: url(homeimages/opossummain.png) no-repeat;
+}
+
+.rolloverOpossum:hover {
+  background: url(homeimages/opossumhover.png);
+  width: 257px;
+  height: 200px;
+}
